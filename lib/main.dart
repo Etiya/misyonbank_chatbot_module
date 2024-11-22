@@ -45,8 +45,8 @@ class InitialScreen extends StatelessWidget {
 class CustomChatbotTheme extends ChatTheme {
   const CustomChatbotTheme() : super();
 
-  final Color toggPrimary = const Color(0xFFF2F2F2);
-  final Color toggSecondary = const Color(0xFF7368F4);
+  final Color chatbotPrimary = const Color(0xFFF2F2F2);
+  final Color chatbotSecondary = const Color(0xFF7368F4);
 
   @override
   Color get backgroundColor => neutral7;
@@ -58,7 +58,7 @@ class CustomChatbotTheme extends ChatTheme {
   double get textMessagePadding => 12;
 
   @override
-  Color get primaryColor => toggSecondary;
+  Color get primaryColor => chatbotSecondary;
 
   @override
   TextStyle get incomingMessageBodyTextStyle => TextStyle(
@@ -75,7 +75,7 @@ class CustomChatbotTheme extends ChatTheme {
       );
 
   @override
-  Color get secondaryColor => toggPrimary;
+  Color get secondaryColor => chatbotPrimary;
 
   @override
   EdgeInsets get messageInset => const EdgeInsets.symmetric(vertical: 8);
@@ -90,7 +90,7 @@ class CustomChatbotTheme extends ChatTheme {
 
   @override
   ButtonStyle get carouselButtonStyle => ButtonStyle(
-        backgroundColor: WidgetStateProperty.all<Color>(toggSecondary),
+        backgroundColor: WidgetStateProperty.all<Color>(chatbotSecondary),
         foregroundColor: WidgetStateProperty.all<Color>(Colors.white),
       );
 
@@ -107,11 +107,11 @@ class CustomChatbotTheme extends ChatTheme {
             borderRadius: BorderRadius.circular(16),
           ),
         ),
-        foregroundColor: WidgetStateProperty.all<Color>(toggSecondary),
+        foregroundColor: WidgetStateProperty.all<Color>(chatbotSecondary),
         textStyle: WidgetStateProperty.all<TextStyle>(
           TextStyle(
             fontWeight: FontWeight.bold,
-            color: toggSecondary,
+            color: chatbotSecondary,
           ),
         ),
       );
