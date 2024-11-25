@@ -1,0 +1,5 @@
+bricks:
+  etiya_architecture_template:
+    git:
+      url: "https://github.com/Etiya/etiya_architecture_template.git"
+      path: 

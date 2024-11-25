@@ -1,0 +1,60 @@
+name: etiya_chatbot_flutter
+description: A new Flutter project.
+version: 0.2.4
+repository: https://github.com/Etiya/etiya_chatbot_flutter.git
+publish_to: none
+
+environment:
+  sdk: ">=3.0.1 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  audioplayers: ^6.0.0
+  bloc_test: ^9.1.7
+  checkbox_formfield: ^0.2.0
+  chewie: ^1.7.4
+  chewie_audio: ^1.5.0
+  dartz: ^0.10.1
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  flutter_downloader: ^1.11.1
+  flutter_form_builder: ^9.3.0
+  flutter_hooks: ^0.20.3
+  flutter_localizations:
+    sdk: flutter
+  flutter_rating_bar: ^4.0.1
+  flutter_screenutil: ^5.9.3
+  flutter_test:
+    sdk: flutter
+  font_awesome_flutter: ^10.5.0
+  http: ^1.1.0
+  inapp_popup_sdk:
+    path: ./packages/inapp_popup_sdk
+
+  intl: ^0.19.0
+  logger: ^2.0.1
+  mime: ^1.0.4
+  mockito: ^5.2.0
+  mocktail: ^1.0.4
+  photo_view: ^0.14.0
+  shared_preferences: ^2.2.0
+  socket_io_client: ^2.0.3+1
+  styled_widget: ^0.4.0+3
+  swifty_chat:
+    git:
+      url: ./packages/etiya_chat
+
+  url_launcher: ^6.1.12
+  uuid: ^4.2.1
+  video_player: ^2.8.1
+  win32: ^5.5.4
+
+dev_dependencies:
+  build_runner: ^2.1.11
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  generate: true

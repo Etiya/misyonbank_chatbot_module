@@ -1,0 +1,8 @@
+{
+  "submit": "Submit",
+  "enterValidEmail": "Enter valid email",
+  "emailAddress": "Email Address",
+  "enterNonEmptyPassword": "Enter non-empty password",
+  "password": "Password",
+  "login": "Login"
+}

@@ -1,0 +1,8 @@
+{
+  "submit": "Gönder",
+  "enterValidEmail": "Geçerli bir email giriniz",
+  "emailAddress": "Email Adresi",
+  "enterNonEmptyPassword": "Lütfen şifre alanını boş bırakmayınız",
+  "password": "Şifre",
+  "login": "Giriş"
+}
