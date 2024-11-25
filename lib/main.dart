@@ -184,7 +184,7 @@ class MyHomePage extends StatefulWidget {
       .setAppBarTheme(CustomAppBarTheme())
       .setTenantId("tenant_id")
       .setBotId("bot_id")
-      .setAuthUrl('https://chatbotosb-demo8.serdoo.com/api/auth')
+      .setAuthUrl('auth_url')
       .setMessageInputHintText("Hint text")
       .setMessageInputMaxLength(50)
       .setShowCharacterCount(showCount: true)
