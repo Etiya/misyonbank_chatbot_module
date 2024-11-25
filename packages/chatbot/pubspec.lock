@@ -1073,11 +1073,9 @@ packages:
   swifty_chat:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "43c8b9f77e202d085efebfaa61f87ff32d9907da"
-      url: "packages/etiya_chat"
-    source: git
+      path: "packages/etiya_chat"
+      relative: true
+    source: path
     version: "1.6.1"
   synchronized:
     dependency: transitive
